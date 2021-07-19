@@ -13,6 +13,8 @@ body {
     height: 1087px;
     border: 2px solid red;
     margin: 0 auto;
+    background: url("/Cahee/img/img.png");
+background-size: cover;
 }
 .home-container {
 width: 1200px;
@@ -20,8 +22,6 @@ height: 100%;
 /* border: 2px solid green; */
 margin: 0 auto;
 position: relative;
-background: url("/Cahee/img/img.png");
-background-size: cover;
 }
 
 .home-wrapper {
@@ -94,15 +94,42 @@ border: none;
 }
 
 .about {
-    /* width: 1500px; */
-    /* height: 1087px; */
+    width: 1500px; 
+    height: 900px;
     border: 2px solid red;
-    /* margin: 0 auto; */
+    margin: 0 auto;
+    background-color: #00B8B8;
 }
-/* .about-title {
+.about-title {
     font-size: 90px;
-
 color: #ffffff;
-font-weight: 700;
+font-weight: 900;
 font-family: "Raleway";
-} */
+border: 2px solid red;
+width:400px;
+}
+.about-text {
+    
+border: 2px solid blue;
+width: 500px;
+height: 202px;
+font-size: 17px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Raleway";
+}
+
+.raspberry-img {
+    margin-left: 100px;
+}
+.about-container {
+    border: 3px solid black;
+}
+.main-about {
+    border: 2px solid red;
+}
+.about-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
