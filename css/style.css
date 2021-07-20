@@ -59,6 +59,7 @@ font-weight: 1000;
 color: #262626;
 font-family: "Raleway";
 margin-bottom: 10px;
+
 }
 
 .home-text {
@@ -69,6 +70,7 @@ color: #262626;
 font-weight: 300;
 font-family: "Raleway";
 margin-bottom: 10px;
+
 }
 button {
     width: 30%;
@@ -89,13 +91,15 @@ border: none;
 }
 .home-mouse {
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     left: 50%;
+    /* border: 2px solid red; */
+    
 }
 
 .about {
     width: 1500px; 
-    height: 900px;
+    height: 700px;
     border: 2px solid red;
     margin: 0 auto;
     background-color: #00B8B8;
@@ -105,28 +109,44 @@ border: none;
 color: #ffffff;
 font-weight: 900;
 font-family: "Raleway";
-border: 2px solid red;
+/* border: 2px solid red; */
 width:400px;
+margin-left: 100px;
 }
-.about-text {
-    
-border: 2px solid blue;
+.about-text-1,.about-text-2 {
+line-height: 27px; 
+/* border: 2px solid blue; */
 width: 500px;
-height: 202px;
+height: 130px;
 font-size: 17px;
 color: #ffffff;
 font-weight: 300;
 font-family: "Raleway";
+margin-left: 100px;
 }
+
+/* .about-text-2 {
+    
+    border: 2px solid blue;
+    width: 500px;
+    height: 100px;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+    }
+ */
+
 
 .raspberry-img {
     margin-left: 100px;
 }
 .about-container {
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 .main-about {
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    margin-top: 100px;
 }
 .about-container {
 display: flex;
