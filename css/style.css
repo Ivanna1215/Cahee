@@ -9,12 +9,16 @@ body {
 
 
 .home {
-    width: 1500px;
-    height: 1087px;
-    border: 2px solid red;
-    margin: 0 auto;
-    background: url("/Cahee/img/img.png");
+width: 1500px;
+height: 900px;
+border: 2px solid red;
+margin: 0 auto;
+background: url("/Cahee/img/img.png");
 background-size: cover;
+/* height: 100%; */
+background-size:cover ;
+
+
 }
 .home-container {
 width: 1200px;
@@ -32,6 +36,7 @@ position: relative;
 .home-logo {
 width: 50%;
 /* border: 2px solid blue; */
+margin-top: 30px;
 }
 .navigation {
 /* border: 2px solid pink; */
@@ -40,6 +45,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 text-transform: uppercase;
+margin-top: 30px;
 }
 .navigation__link {
 text-decoration: none;
@@ -93,7 +99,8 @@ border: none;
     position: absolute;
     bottom: 100px;
     left: 50%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
+    margin-top: 200px;
     
 }
 
