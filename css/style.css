@@ -11,7 +11,7 @@ body {
 .home {
 width: 1500px;
 height: 900px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin: 0 auto;
 background: url("/Cahee/img/img.png");
 background-size: cover;
@@ -100,14 +100,17 @@ border: none;
     bottom: 100px;
     left: 50%;
     border: 2px solid red;
-    margin-top: 200px;
-    
-}
+    /* margin-top: 200px; */
+        /* left: 50%; */
+        /* margin-right: -50%; */
+        transform: translate(0, -50%) 
+    }
+
 
 .about {
     width: 1500px; 
     height: 700px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     background-color: #00B8B8;
 }
@@ -237,7 +240,7 @@ margin: 30px 469px;
     position: relative;
 }
 .img-blog {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: center;
 }
