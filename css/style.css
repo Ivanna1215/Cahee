@@ -1,12 +1,10 @@
 @font-face {
     font-family: "Raleway";
-    src: url("/Cahee/fonts/Raleway/Raleway-Regular.ttf");
+    src: url("../fonts/Raleway/Raleway-Regular.ttf");
 }
-
 body {
     border: 2px solid green;
 }
-
 
 .home {
 width: 1500px;
@@ -17,8 +15,6 @@ background: url("/Cahee/img/img.png");
 background-size: cover;
 /* height: 100%; */
 background-size:cover ;
-
-
 }
 .home-container {
 width: 1200px;
@@ -78,10 +74,10 @@ font-family: "Raleway";
 margin-bottom: 10px;
 
 }
-button {
+.home-button {
     width: 30%;
     height: 50px;
-    background-color: #FF6033;
+    background-color: #33ff70;
     font-size: 20px;
 color: #ffffff;
 font-weight: 300;
@@ -174,7 +170,7 @@ align-items: center;
     justify-content: center;
 }
 
-.header-blog {
+.blog-header {
     width: 190px;
     height: 86px;
     /* border: 2px solid red; */
@@ -182,13 +178,12 @@ align-items: center;
 /* line-height: 25px; */
 color: #ffffff;
 font-weight: 700;
-
 font-family: "Raleway" ;
 text-align: center;
 margin: 0 655px 30px 655px;
 
 }
-.text-blog {
+.blog-text {
     width: 563px;
     height: 66px;
     /* border: 2px solid red; */
@@ -202,15 +197,15 @@ font-family: "Raleway";
 text-align: center;
 margin: 30px 469px;
 }
-.element-1-blog {
-    background: url("/position-task-1/img/juice.png");
+.blog-element-1 {
+    background: url("../img/juice.png");
     width: 372px;
     height:311px;
     margin: 10px;
     position: relative;
    
 }
-.gradient-blog {
+.blog-gradient {
     /* background-image: linear-gradient(0deg, #000000 0%, #ffffff 100%); */
     background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 100%);
     width: 372px;
@@ -220,26 +215,26 @@ margin: 30px 469px;
     opacity: 0.5;
     transition: opacity 3s ease 0s;
 }
-.element-1-blog:hover .gradient {
+.blog-element-1:hover .gradient {
     opacity:0;
 }
 
-.element-2-blog {
-    background: url(/position-task-1/img/suup.png) center bottom no-repeat; 
+.blog-element-2 {
+    background: url(../img/suup.png) center bottom no-repeat; 
     background-size: cover;
     width: 372px;
     height:311px;
     margin: 10px;
     position: relative;
 }
-.element-3-blog {
-    background: url(/position-task-1/img/raspberry.png) center;
+.blog-element-3 {
+    background: url(../img/raspberry.png) center;
     width: 372px;
     height: 311px;
     margin: 10px;
     position: relative;
 }
-.img-blog {
+.blog-img {
     /* border: 2px solid green; */
     display: flex;
     justify-content: center;
@@ -257,7 +252,7 @@ font-weight: 300;
 font-family: "Raleway";
 margin: 50px auto; 
 }
-.data-blog {
+.blog-data {
 width: 60px;
 height: 60px;
 background-color: rgba(128, 128, 128,0.3);
@@ -271,13 +266,11 @@ text-align: center;
 text-transform: uppercase;
 position: relative;
 top: 45px;
-
 left: 45px;
 /* transform: translateX(180px) rotate(45deg); */
 /* transform: rotate(45deg) */
-
 }
-.big-text-blog {
+.blog-big-text {
     width: 340px;
 height: 79px;
 font-size: 20px;
@@ -289,7 +282,7 @@ position: relative;
 left: 20px;
 top: 150px;
 }
-.small-text-blog {
+.blog-small-text {
     width: 370px;
     font-size: 12px;
     /* line-height: 25px; */
