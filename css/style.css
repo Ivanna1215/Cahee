@@ -1,8 +1,12 @@
 @font-face {
     font-family: "Raleway";
     src: url("../fonts/Raleway/Raleway-Regular.ttf");
-
 }
+@font-face {
+    font-family: "Pacifico";
+    src:url(../fonts/Pacifico/Pacifico-Regular.ttf)
+}
+
 body {
     border: 2px solid green;
 }
@@ -33,9 +37,10 @@ position: relative;
 .home-logo {
 width: 50%;
 /* border: 2px solid blue; */
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: Pacifico;
 font-size:30px;
 margin-top: 30px;
+
 
 }
 .logo-navigation__link {
@@ -44,7 +49,7 @@ margin-top: 30px;
     color: black;
 }
 
-.home-logo:hover {
+.logo-navigation__link:hover {
 color:#ff6033 ;
 }
 
