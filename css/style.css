@@ -373,7 +373,7 @@ text-align: center;
 }
 .contact-message {
     width: 80%;
-    height: 200px;
+    height: 180px;
     background-color:#7DDFDF;
     box-sizing: border-box;
     border: none;
@@ -391,7 +391,7 @@ textarea:focus {
    
     border-left: 3px solid gray;
 }
-.Bcahee {
+.BuTton-cahee {
     width: 200px;
     height: 56px;
     background:#3477AC;
@@ -403,6 +403,7 @@ font-weight: 300;
 font-family: "Raleway";
 margin: 0 auto; 
 border: none;
+margin-top: 15px;
 }
 
 .contact-block2 {
