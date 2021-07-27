@@ -319,7 +319,7 @@ top: 150px;
 }
 .cFcontainer{
     width: 1200px;  
-    height: 90%;
+    height: 70%;
     margin: 0 auto;
     /* border: 2px solid red; */
     display: flex;
@@ -351,15 +351,15 @@ font-weight: 300;
 font-family: "Raleway";
 text-align: center;
 }
-.contact-forma-address{
-    width: 100%;
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
+.contact-block1{
+    width: 50%;
+    /* border: 2px solid rgb(153, 0, 255); */
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
 .contact-name {
-    width: 100%;
+    width: 80%;
     height: 50px;
     background-color:#7DDFDF;
     display: flex;
@@ -369,14 +369,16 @@ text-align: center;
     margin-bottom: 10px;
     padding: 10px;
     color: white;
+    outline: none;
 }
 .contact-message {
-    width: 100%;
+    width: 80%;
     height: 251px;
     background-color:#7DDFDF;
     box-sizing: border-box;
     border: none;
     padding: 10px;
+    outline: none;
 }
 input::placeholder,
 textarea::placeholder {
@@ -386,6 +388,8 @@ textarea::placeholder {
 input:focus,
 textarea:focus {
     background-color:#00C4C4;
+   
+    border-left: 3px solid gray;
 }
 
 .contact-block2 {
