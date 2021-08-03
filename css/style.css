@@ -200,6 +200,11 @@ margin-bottom: 20px;
 display: flex;
 align-items: center;
 justify-content: space-between;
+
+}
+.services-wrap:hover {
+     box-shadow: 0 14px 28px #398ac9;
+    /* box-shadow: 0 14px 28px rgb(10, 10, 128) */
 }
 .deliv {
     /* border: 2px solid red; */
