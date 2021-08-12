@@ -52,27 +52,28 @@ margin-bottom:20px ;
 .galpart-2 {
     display: flex;
     justify-content: space-between;
-    .gallery-button {
-        background-color: blue;
-        position: relative;
-    align-items: center;
-    .gal-button {
-        font-size: 20px;
-        line-height: 27px;
-        color: #ffffff;
-        font-weight: 300;
-        font-family: "Raleway";
-        background: #5585A2;
-        margin: 50px auto;
-        text-align: center;
-        position: absolute;
-        right: 50%;
-        transform: translate(50%,0);
-        width: 200px;
-        height: 56px;
-        }
+    
+
+}
+.gallery-button {
+    background-color: blue;
+    position: relative;
+align-items: center;
+.gal-button {
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+    background: #5585A2;
+    margin: 50px auto;
+    text-align: center;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%,0);
+    width: 200px;
+    height: 56px;
     }
 }
-
 }
 }
