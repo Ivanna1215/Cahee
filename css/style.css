@@ -352,7 +352,7 @@ transform: translate(50%,0);
     position: relative;
 } */
 
-.sub {
+/* .sub {
     width: 1500px;
     height: 500px;
     border: 2px solid red;
@@ -360,7 +360,7 @@ transform: translate(50%,0);
     background: url(../img/subscribe.png) bottom left;
     background-size:  1500px ;
 
-}
+} */
 /* .sub-container{
     width: 85%;
     height: 90%;
@@ -480,20 +480,20 @@ margin: 30px 469px;
     margin: 10px;
     position: relative;
 } */
-.blog-element-3 {
+/* .blog-element-3 {
     background: url(../img/raspberry.png) center;
     width: 372px;
     height: 311px;
     margin: 10px;
     position: relative;
-}
+} */
 /* .blog-img {
     border: 2px solid green;
     display: flex;
     justify-content: center; */
 }
 
-button {
+/* .blog-red {
     width: 200px;
     height: 56px;
     background: red;
@@ -504,7 +504,7 @@ color: #ffffff;
 font-weight: 300;
 font-family: "Raleway";
 margin: 50px auto; 
-}
+} */
 /* .blog-data {
 width: 60px;
 height: 60px;

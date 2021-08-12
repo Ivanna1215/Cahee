@@ -8,7 +8,7 @@
     .contact-container {
         width: 1200px;
         height: 90%;
-        border: 2px solid red; 
+        // border: 2px solid red; 
         margin: 0 auto;
 .contact-title {
 /* border: 2px solid blue; */
@@ -36,7 +36,7 @@ text-align: center;
 width: 1200px;  
 height: 70%;
 margin: 0 auto;
- border: 2px solid red; 
+//  border: 2px solid red; 
 display: flex;
  justify-content: space-between;
  .contact-block1 {
@@ -121,11 +121,18 @@ margin-top: 15px;
     }
 
     }
-
-    .footer {
-        /* border: 2px solid red; */
+    .con-footer {
+        border: 2px solid black;
         background-color:#262626;
-        height: 10%;
+        height: 20%;
+.Cfoot-container {
+    width: 1200px;  
+height: 70%;
+margin: 0 auto;
+ border: 2px solid blue; 
+display: flex;
+ justify-content: space-between;
+}
         .CFtext {
             /* border: 2px solid blueviolet; */
             font-size: 15px;
